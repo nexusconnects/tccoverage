@@ -1,0 +1,11 @@
+{
+    "total_calls": 4,
+    "total_sales": 2,
+    "total_revenue": 1250.0,
+    "sales_conversion_rate": 0.5,
+    "average_revenue_per_sale": 625.0,
+    "total_publisher_cost": 185.0,
+    "total_google_cost": 330.0,
+    "total_ad_spend": 515.0,
+    "overall_roas": 1.4271844660194175
+}

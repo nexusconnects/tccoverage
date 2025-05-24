@@ -1,0 +1,5 @@
+call_id,timestamp,source,duration_seconds,lead_score,contact_phone_number,source_type,source_campaign_id_or_name,sale_timestamp,sale_revenue,sale_product
+call_abc001,2023-10-01 10:05:00,publisher_camp_A1,300,75,11234567890,publisher,camp_A1,2023-10-01 10:15:00,500.0,Life Insurance Policy
+call_xyz002,2023-10-01 11:15:00,google_Insurance Campaign 1,450,85,12345678901,google,Insurance Campaign 1,2023-10-01 11:30:00,750.0,Auto Insurance Policy
+call_def003,2023-10-02 09:30:00,publisher_camp_A2,240,60,13456789012,publisher,camp_A2,,0.0,
+call_ghi004,2023-10-02 14:20:00,google_Insurance Campaign 2,180,70,14567890123,google,Insurance Campaign 2,,0.0,

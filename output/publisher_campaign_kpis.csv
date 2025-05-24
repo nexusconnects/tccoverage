@@ -1,0 +1,4 @@
+campaign_id,total_cost,total_impressions,total_clicks,total_leads,cpl,ctr
+camp_A1,50.0,10000,200,10,5.0,0.02
+camp_A2,60.0,12000,220,15,4.0,0.018333333333333333
+camp_B1,75.0,15000,250,12,6.25,0.016666666666666666

@@ -1,0 +1,4 @@
+date,publisher_id,publisher_name,campaign_id,impressions,clicks,cost,conversions_to_call_intent
+2023-10-01,pub_001,PublisherA,camp_A1,10000,200,50.00,10
+2023-10-01,pub_002,PublisherB,camp_B1,15000,250,75.00,12
+2023-10-02,pub_001,PublisherA,camp_A2,12000,220,60.00,15
