@@ -1,0 +1,4 @@
+date,campaign_name,ad_group_name,keyword,impressions,clicks,cost,calls_generated_directly
+2023-10-01,Insurance Campaign 1,Geico Leads,geico insurance,500,50,100.00,5
+2023-10-01,Insurance Campaign 2,Statefarm Leads,statefarm policy,600,60,120.00,7
+2023-10-02,Insurance Campaign 1,Geico Leads,buy geico insurance,550,55,110.00,6
