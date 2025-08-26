@@ -1,0 +1,68 @@
+template-file-path: template.yaml
+parameters:
+  EntityTypes: >-
+    PERSON | LOCATION | ORGANIZATION | CARRIER | EVENT | DATE | DISPOSITION |
+    TITLE
+  GenAIQuery: ANTHROPIC
+  SpeakerSeparationType: speaker
+  FilenameDatetimeFieldMap: '%Y %m %d %H %M %S'
+  FilenameGUIDRegex: _GUID_(.*?)_
+  MinSentimentPositive: '2.0'
+  TestBedrockModelId: 'true'
+  EntityRecognizerEndpoint: undefined
+  ConversationLocation: America/New_York
+  VocabularyName: undefined
+  SummarizationLambdaFunctionArn: ''
+  TelephonyCTRType: genesys
+  OutputBucketParsedResults: parsedFiles
+  BulkUploadMaxDripRate: '25'
+  BulkUploadMaxTranscribeJobs: '50'
+  SummarizationBedrockModelId: anthropic.claude-3-haiku-20240307-v1:0
+  StorageCapacityUnits: '0'
+  InputBucketOrigTranscripts: originalTranscripts
+  DatabaseName: pca3
+  SpeakerNames: Customer | Agent
+  TelephonyCTRFileSuffix: _metadata.json | _call_metadata.json
+  CallRedactionAudio: 'false'
+  SupportFilesBucketName: ''
+  CustomLangModelName: undefined
+  AdminUsername: admin
+  StepFunctionName: PostCallAnalyticsWorkflow
+  BulkUploadBucketName: ''
+  OutputBucketTranscribeResults: transcribeResults
+  InputBucketName: ''
+  BulkUploadStepFunctionName: BulkUploadWorkflow
+  TranscribeApiMode: analytics
+  Environment: PROD
+  EnablePcaDashboards: 'Yes'
+  OutputBucketName: ''
+  VocabFilterMode: mask
+  SummarizationLLMThirdPartyApiKey: '****'
+  AdminEmail: admin@healthproventures.com
+  SummarizationSageMakerInitialInstanceCount: '1'
+  EnableGui: 'true'
+  QueryCapacityUnits: '0'
+  ContentRedactionLanguages: en-US
+  GenAIQueryBedrockModelId: anthropic.claude-3-haiku-20240307-v1:0
+  InputBucketRawAudio: originalAudio
+  FilenameDatetimeRegex: (\d{4})-(\d{2})-(\d{2})T(\d{2})-(\d{2})-(\d{2})
+  FilenameAgentRegex: _AGENT_(.*?)_
+  AllowedSignUpEmailDomain: healthproventures.com
+  MinSentimentNegative: '2.0'
+  EntityStringMap: sample-entities.csv
+  ffmpegDownloadUrl: >-
+    http://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.4-amd64-static.tar.xz
+  EnableTranscriptKendraSearch: Yes, create new Kendra Index (Developer Edition)
+  TranscribeLanguages: en-US
+  VocabFilterName: undefined
+  RetentionDays: '365'
+  ComprehendLanguages: de | en | es | it | pt | fr | ja | ko | hi | ar | zh | zh-TW
+  CallRedactionTranscript: 'false'
+  MaxSpeakers: '3'
+  InputBucketAudioPlayback: playbackAudio
+  CallSummarization: ANTHROPIC
+  loadSampleAudioFiles: 'true'
+  EntityThreshold: '0.6'
+  InputBucketFailedTranscriptions: failedAudio
+  FilenameCustRegex: _CUST_(.*?)_
+tags: {}
